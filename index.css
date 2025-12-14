@@ -4,16 +4,18 @@ body{
 .header{
     background:#333333;
     display:flex;
-    justify-content: space-between;
+
     align-items: center;
     height: 78px
 }
 .header1{
+    display:flex;
     flex: 1
 }
 .header1 img{
-    width: 42px;
+    width: 43px;
     height:42px;
+    margin-left: 12px
 }
 .header2{
     color:white;
@@ -33,14 +35,23 @@ body{
     font-size:14px;
 }
 .header3{
-    color:white;
+    background:red;
     display:flex;
     flex: 1;
-
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right:10px
 }
-.header3 img{
-    color:white;
+.h31 img{
+    width:16px;
+    height:20px;
+    
 }
-.h33{
-    max-width:56px
+.h32 img{
+    width:18px;
+    height:20px;
+}
+.h33 img{
+    width:16px;
+    height:16px;
 }
