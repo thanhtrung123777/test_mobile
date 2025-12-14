@@ -1,0 +1,46 @@
+body{
+    margin:0
+}
+.header{
+    background:#333333;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px
+}
+.header1{
+    flex: 1
+}
+.header1 img{
+    width: 42px;
+    height:42px;
+}
+.header2{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1
+}
+.header2 h1{
+    font-size:24px;
+    font-family: 'Montez'
+}
+.header2 h2{
+    margin-top:-20px;
+    font-family: 'Inria Serif';
+    font-size:14px;
+}
+.header3{
+    color:white;
+    display:flex;
+    flex: 1;
+
+}
+.header3 img{
+    color:white;
+}
+.h33{
+    max-width:56px
+}
