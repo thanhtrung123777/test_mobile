@@ -23,7 +23,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1
+    flex:1 ;
+    margin-right:50px
+    
 }
 .header2 h1{
     font-size:24px;
@@ -37,21 +39,25 @@ body{
 .header3{
     background:red;
     display:flex;
-    flex: 1;
+    /* flex: 1; */
     gap: 10px;
     justify-content: flex-end;
-    margin-right:10px
+    margin-right:10px;
+   
 }
 .h31 img{
     width:16px;
     height:20px;
     
+    
 }
 .h32 img{
     width:18px;
     height:20px;
+    
 }
 .h33 img{
     width:16px;
     height:16px;
+    
 }
